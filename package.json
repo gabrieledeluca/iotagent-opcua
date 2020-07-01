@@ -45,7 +45,7 @@
     "iotagent-node-lib": "https://github.com/telefonicaid/iotagent-node-lib.git",
     "logops": "^1.0.0",
     "node-opcua": "^2.5.1",
-    "npm": "6.2.0",
+    "npm": "6.12.1",
     "properties-reader": "0.0.16",
     "request": "^2.82.0",
     "requirish": "^0.3.0",
