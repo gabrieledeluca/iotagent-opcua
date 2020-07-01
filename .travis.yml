@@ -22,7 +22,7 @@ jobs:
         - ./replace_local_ip.sh
         - docker-compose -f ./tests/docker-compose.yml up -d
         - cd testCommands
-        - npm install
+        - npm --version
 
       #before_script:
       #  - npm run lint
