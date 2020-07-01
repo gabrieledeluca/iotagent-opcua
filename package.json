@@ -27,7 +27,6 @@
     "node": ">=8.0.0"
   },
   "scripts": {
-    "clean": "rm -rf package-lock.json && rm -rf node_modules && rm -rf coverage",
     "test": "mocha tests/test.js --timeout=180000 --exit",
     "test:watch": "npm run test -- -w ./lib",
     "lint": "eslint . --cache --fix",
@@ -45,7 +44,7 @@
     "iotagent-node-lib": "https://github.com/telefonicaid/iotagent-node-lib.git",
     "logops": "^1.0.0",
     "node-opcua": "^2.5.1",
-    "npm": "^6.14.5",
+    "npm": "^6.12.1",
     "properties-reader": "0.0.16",
     "request": "^2.82.0",
     "requirish": "^0.3.0",
