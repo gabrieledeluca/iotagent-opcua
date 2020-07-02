@@ -393,6 +393,7 @@ describe('The agent is monitoring active attributes...', function() {
                 console.log(stdout);
                 console.log('STDERR: ');
                 console.log(stderr);
+		done();
             });
         }, 5000);
 
@@ -410,7 +411,7 @@ describe('The agent is monitoring active attributes...', function() {
             }
         }
 
-        resetReconnectionFlag();
+        //resetReconnectionFlag();
 
         /*
         // TODO: fix this
